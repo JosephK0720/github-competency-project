@@ -13,7 +13,13 @@ def show_robots():
         print(f"- {robot}")
 
 
+def assign_task(robot, task):
+    print(f"{robot} assigned task: {task}")
+
+
 add_robot("Atlas")
 add_robot("Spot")
 
 show_robots()
+
+assign_task("Atlas", "Inspect warehouse")
